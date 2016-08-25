@@ -32,7 +32,6 @@ public class BFSTest {
 		bfs.addEdge(4, 6);
 		bfs.addEdge(5, 6);
 		bfs.printBFS(0);
-		System.err.println(outContent.toString());
 		Assert.assertEquals("0 3 1 2 4 5 6 ", outContent.toString());
 	}
 
