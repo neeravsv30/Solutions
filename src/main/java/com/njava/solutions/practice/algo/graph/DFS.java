@@ -23,7 +23,7 @@ public class DFS {
 
 	public void printDFS(final int startNode) {
 		visited[startNode] = true;
-		System.out.println(startNode);
+		System.out.print(startNode + " ");
 		final Iterator<Integer> adj = adjList[startNode].listIterator();
 		while (adj.hasNext()) {
 			final int n = adj.next();
